@@ -12,5 +12,7 @@ public class TestSecurityMod extends HttpServlet {
   protected void doPost(HttpServletRequest req, HttpServletResponse resp)
     throws ServletException, IOException {
     doSomething();
+    //Writing in the old servlet version looks like this.
+    //throw new IOException("~");
   }
 }
