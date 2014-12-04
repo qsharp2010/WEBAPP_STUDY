@@ -18,7 +18,7 @@ private void solrSelectExecute()
   query.setRows(Integer.MAX_VALUE);
   QueryResponse response = server.query(query);
   //results
-  solrList = response.getResults
+  solrList = response.getResults();
 }
 
 //ping solr server
